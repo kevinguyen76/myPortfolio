@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffe8c5;
+   scroll-behavior: smooth;
+}
+
+li, a, button, h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Header Stylings */
+
+.nav_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem 10%;   
+}
+
+.nav_wrapper h1 {
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 28px
+}
+
+.nav_links {
+    list-style: none;
+    color: black;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding : 0 1rem;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_links li a:hover {
+    color: #3A10E5;
+}
+
+.nav_wrapper button {
+    margin-left: 1rem;
+    padding : 0.5rem 1rem;
+    border: solid;
+    border-color: black;
+    border-width: 1.5px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.nav_wrapper button:hover{
+    background-color: #3A10E5;
+    color: white;
+}
+
+/* Splash Page Stylings */
+
+#splashPage {
+    height: 100vh;
+    border: solid;
+    border-color: #3A10E5;
+    border-width: 2px;
+    padding: 5rem 15%;  
+}
+
+
+/* About Me Page Stylings */
+
+#aboutMe {
+    height: 100vh;
+    border: solid;
+    border-color: #3A10E5;
+    border-width: 2px;
+    padding: 5rem 15%;  
+}
+
+/* Projects Page Stylings */
+
+#projects {
+    height: 100vh;
+    border: solid;
+    border-color: #3A10E5;
+    border-width: 2px;
+    padding: 5rem 15%;  
+}
+
